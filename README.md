@@ -1,1 +1,3 @@
-# Machine-Learning-Trading
+* For the Baseline trading algorithm, will also test with 6month and 9 month offsets, and record results 
+* When I ran the Dataoffset longer, ie 6 months and then 12 months, the results were that accuracy improved over 6 months, and also recall for the buy signal, went from 90 to 97.  Compare this to the 12 months offset and accuracy was also similar at 53%, however the recall continued to rise 
+* Further increasing the offset for testing the base line meant that the Random Forest classifier had better outcomes then ADA boost as the offset was extended. 
